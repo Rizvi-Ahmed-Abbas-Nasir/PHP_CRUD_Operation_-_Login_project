@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.Form_Page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items:center;
+    background-image: url('https://cdn.wallpapersafari.com/21/24/pELVjk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Input_Register{
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+
+.Table{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 50vh;
+}
+
+.heading{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   padding: 10px 20px;
+
+}
+
+.Input_Boxs{
+    margin: 10px 0px;
+}
+.Intput_Styling{
+    width: 100%;
+    outline: none;
+    padding: 12px 0px;
+    border-radius: 15px;
+    border: solid rgb(75, 75, 75) 2px;
+}

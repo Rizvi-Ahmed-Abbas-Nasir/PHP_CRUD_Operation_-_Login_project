@@ -10,7 +10,8 @@
 <body>
     <div class="contanier__Register_Background">
         <div class="Register_Form">
-           <img src="/Assets/motorcycle.gif" />
+           <!-- <img src="https://cdn.dribbble.com/users/1973278/screenshots/6995895/motorcycle.gif" /> -->
+           <img src="https://rurutek.com/jio/assets/img/login-animate.gif" />
         </div>
         <div class="Register_Form_view" >
             <h3>Register</h3>
