@@ -14,10 +14,11 @@
     height: 100vh;
     justify-content: space-evenly;
     align-items:center;
-    background-image: url('https://cdn.wallpapersafari.com/21/24/pELVjk.jpg');
+    background-image: url('https://w0.peakpx.com/wallpaper/250/207/HD-wallpaper-blur-video-game-illusion-connect.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .Input_Register{
@@ -32,7 +33,8 @@
 .Table{
     background-color: rgb(255, 255, 255);
     width: 40%;
-    height: 50vh;
+    height:50vh;
+    border-radius: 20px;
 }
 
 .heading{
@@ -52,4 +54,96 @@
     padding: 12px 0px;
     border-radius: 15px;
     border: solid rgb(75, 75, 75) 2px;
+    font-size: 17px;
+}
+.button_ST{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+label{
+    padding: 20px 0px;
+    font-size: 17px;
+}
+
+
+table{
+    width: 100%;
+    border: 2px solid #eee;
+    border-collapse: collapse;
+}
+thead tr th{
+    border: 2px solid #eee;
+    padding: 10px !important;
+}
+tr{
+    border: 2px solid #eee;
+    width: 100%;
+    text-align: center;
+}
+tr>td{
+    border: 2px solid #eee;
+    padding: 10px !important;
+
+}
+.HeadingForm{
+    padding: 10px 0px;
+}
+
+.modal{
+    position:fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 100%;
+    height: 100vh;
+    display:none;
+    justify-content: center;
+    align-items:center;
+}
+.modal-body{
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.modal-body h3{
+    margin-bottom: 30px ;
+    text-align: center;
+}
+
+
+
+.alerts{
+}
+.alert{
+    position:fixed;
+    top: 10px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.alert-success{
+    background-color: rgb(31, 192, 31);
+    display:none;
+}
+
+.alert-danger{
+    background-color: rgb(194, 27, 27);
+    display:none;
+}
+
+@media screen and (max-width:700px) {
+    .table-responsive{
+        overflow-x: scroll;
+    }
 }

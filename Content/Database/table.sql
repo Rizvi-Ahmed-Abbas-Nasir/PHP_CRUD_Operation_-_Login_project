@@ -1,0 +1,7 @@
+CREATE TABLE student_data (
+  id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+  std_name VARCHAR(255) COMMENT '',
+  std_enroll VARCHAR(255) COMMENT '',
+  std_class VARCHAR(255) COMMENT ''
+  std_batch VARCHAR(255) COMMENT ''
+) DEFAULT CHARSET UTF8 COMMENT '';
